@@ -11,7 +11,7 @@ Dieses Repository enthält den Code und die Dokumentation für ein Projekt zur A
 ### Benötigte Bibliotheken installieren:
 ```bash
 pip install pandas spacy nltk sklearn gensim matplotlib
-
+```bash
 
 ### SpaCy Deutsch-Sprachmodell herunterladen:
 ```bash
