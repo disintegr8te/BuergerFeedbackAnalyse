@@ -1,5 +1,4 @@
 # Projektübersicht
-
 Dieses Repository enthält den Code und die Dokumentation für ein Projekt zur Analyse von Bürgerbeschwerden mittels Natural Language Processing (NLP). Ziel des Projekts ist es, aus den über die FragDenStaat-API gesammelten Daten wichtige Themen herauszufiltern, die Hinweise auf häufige Beschwerden und Anliegen der Bürger bezüglich kommunaler Entscheidungen geben.
 
 ## Installationsanleitung
@@ -11,12 +10,12 @@ Dieses Repository enthält den Code und die Dokumentation für ein Projekt zur A
 ### Benötigte Bibliotheken installieren:
 ```bash
 pip install pandas spacy nltk sklearn gensim matplotlib
-```bash
+```
 
 ### SpaCy Deutsch-Sprachmodell herunterladen:
 ```bash
 python -m spacy download de_core_news_sm
-
+```
 
 ## Verwendung
 - **Daten abrufen:** Die Daten werden automatisch über die FragDenStaat-API bezogen. Stellen Sie sicher, dass Sie eine gültige API-URL und die notwendigen Berechtigungen haben.
